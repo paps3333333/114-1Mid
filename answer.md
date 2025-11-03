@@ -67,6 +67,7 @@ Ans:
 1. b.
 
 Ans:
+```js
 const products = [
   { name: "keyboard", stock: 25 },
   { name: "mouse", stock: 5 },
@@ -83,7 +84,7 @@ function getLowStock(products) {
 }
 
 getLowStock(products);
-
+```
 
 
 <!-- 請撰寫時，最後一句話再寫一次 -->
@@ -97,9 +98,10 @@ Ans:
 
 2. a.
 
-Ans:(http://localhost:3000)
-![alt text](2a圖檔.png)
-![alt text](2a-1圖檔.png)
+Ans: http://localhost:3000
+![Alt text for the image](./2a圖檔.png "Optional title text for mouseover")
+![Alt text for the image](./2a-1圖檔.png "Optional title text for mouseover")
+[alt text](./2a-1圖檔.png)
 <!--  請撰寫時，第一句話再寫一次  -->
 
 2. b.
