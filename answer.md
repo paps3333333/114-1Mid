@@ -1,8 +1,8 @@
 # 第2次隨堂題目-隨堂-QZ2
 >
->學號：1234567   (學號和姓名都要寫)
+>學號：112111101   (學號和姓名都要寫)
 ><br />
->姓名：王小明
+>姓名：陳姸卉
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -51,13 +51,40 @@ public void mt_getResult(){
 1. a.
 
 Ans: 
+1.(1)陣列、物件
+  (2)
+  const products = [
+  { name: "keyboard", stock: 25 },
+  { name: "mouse", stock: 5 },
+  { name: "monitor", stock: 8 },
+  { name: "usb cable", stock: 40 }
+];
 
+宣告變數、存放資料、描述每個資料
 
 
 
 1. b.
 
 Ans:
+const products = [
+  { name: "keyboard", stock: 25 },
+  { name: "mouse", stock: 5 },
+  { name: "monitor", stock: 8 },
+  { name: "usb cable", stock: 40 }
+];
+
+function getLowStock(products) {
+  const lowStockItems = products
+    .filter(item => item.stock < 10)
+    .map(item => item.name);
+
+  console.log(`庫存少於10的項目 : ${JSON.stringify(lowStockItems)}`);
+}
+
+getLowStock(products);
+
+
 
 <!-- 請撰寫時，最後一句話再寫一次 -->
 
@@ -70,8 +97,9 @@ Ans:
 
 2. a.
 
-Ans:
-
+Ans:(http://localhost:3000)
+![alt text](2a圖檔.png)
+![alt text](2a-1圖檔.png)
 <!--  請撰寫時，第一句話再寫一次  -->
 
 2. b.
@@ -88,6 +116,6 @@ Ans:
 
 2. d.
 
-Ans:
+Ans:4
 
 
